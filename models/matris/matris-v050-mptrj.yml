@@ -110,3 +110,60 @@ metrics:
     pred_file: models/matris/matris-0.5.0-mptrj/2025-03-12-wbm-IS2RE.csv.gz
     pred_file_url: https://figshare.com/files/52969736
     pred_col: e_form_per_atom_matris_mp
+    full_test_set:
+      F1: 0.798 # fraction
+      DAF: 4.456 # dimensionless
+      Precision: 0.765 # fraction
+      Recall: 0.834 # fraction
+      Accuracy: 0.927 # fraction
+      TPR: 0.834 # fraction
+      FPR: 0.053 # fraction
+      TNR: 0.947 # fraction
+      FNR: 0.166 # fraction
+      TP: 36755.0 # count
+      FP: 11312.0 # count
+      TN: 201559.0 # count
+      FN: 7337.0 # count
+      MAE: 0.035 # eV/atom
+      RMSE: 0.080 # eV/atom
+      R2: 0.800 # dimensionless
+      missing_preds: 4 # count
+      missing_percent: 0.00% # fraction
+    most_stable_10k:
+      F1: 0.984 # fraction
+      DAF: 6.341 # dimensionless
+      Precision: 0.969 # fraction
+      Recall: 1.000 # fraction
+      Accuracy: 0.969 # fraction
+      TPR: 1.000 # fraction
+      FPR: 1.000 # fraction
+      TNR: 0.000 # fraction
+      FNR: 0.000 # fraction
+      TP: 9693.0 # count
+      FP: 307.0 # count
+      TN: 0.0 # count
+      FN: 0.0 # count
+      MAE: 0.026 # eV/atom
+      RMSE: 0.057 # eV/atom
+      R2: 0.926 # dimensionless
+      missing_preds: 0 # count
+      missing_percent: 0.00% # fraction
+    unique_prototypes:
+      F1: 0.809 # fraction
+      DAF: 5.049 # dimensionless
+      Precision: 0.772 # fraction
+      Recall: 0.850 # fraction
+      Accuracy: 0.938 # fraction
+      TPR: 0.850 # fraction
+      FPR: 0.046 # fraction
+      TNR: 0.954 # fraction
+      FNR: 0.150 # fraction
+      TP: 28379.0 # count
+      FP: 8391.0 # count
+      TN: 173723.0 # count
+      FN: 4995.0 # count
+      MAE: 0.037 # eV/atom
+      RMSE: 0.082 # eV/atom
+      R2: 0.803 # dimensionless
+      missing_preds: 0 # count
+      missing_percent: 0.00% # fraction
